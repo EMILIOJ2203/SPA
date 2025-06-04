@@ -1,0 +1,329 @@
+.header {
+    /*400 = Regular*/
+    align-items: center;
+    background-color: #A3A656;
+    box-sizing: border-box;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: 70px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.menu {
+    padding-left: 70px;
+}
+
+.menu ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    color: #FFFF00;
+}
+
+.right-part {
+    align-items: center;
+    display: flex;
+    gap: 30px;
+    justify-content: end;
+    padding-right: 10x;
+}
+
+.user {
+    align-items: center;
+    display: flex;
+    font-size: 14px;
+    gap: 6px;
+    right: 12%;
+}
+
+.flag {
+    align-items: center;
+    display: flex;
+    font-size: 14px;
+    gap: 6px;
+    right: 12%;
+}
+
+.background-main {
+    align-items: center;
+    background-image: url(images/main.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height: 88vh;
+    position: relative;
+    text-align: left;
+}
+
+.slogan {
+    padding-bottom: 100px;
+    padding-left: 125px;
+}
+
+.background-main h1 {
+    /* Romanesco es una fuente script, se recomienda cursive como fallback */
+    font-family: 'Romanesco', cursive;
+    font-size: 96px;
+    font-weight: 400;
+    margin: 0px;
+}
+
+.background-main h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 0px;
+}
+
+.forms {
+    align-content: center;
+    background-color: #f2f6f6;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.forms form {
+    align-items: center;
+    color: #384001;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    gap: 25px;
+}
+
+.forms input {
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    color: black;
+    font-size: 16px;
+    height: 60px;
+    padding: 0 15px;
+    width: 200px;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.services {
+    background-color: white;
+    border: none;
+    display: flex;
+    gap: 134px;
+    justify-content: center;
+    margin: 0px;
+    padding-bottom: 50px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 100px;
+}
+
+.header-card {
+    align-items: center;
+    background-color: #a3a656;
+    border-radius: 15px 15px 0 0;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.header-card h2 {
+    color: white;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.card img {
+    height: auto;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.description {
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 15px 0;
+}
+
+.price-button {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.price {
+    color: black;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.reserve-button {
+    background-color: #a3a656;
+    border: none;
+    border-radius: 35px;
+    color: white;
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding: 10px 20px;
+}
+
+.reserve-button:hover {
+    background-color: #384001;
+    color: white;
+}
+
+.memberships {
+    background-color: #f2f6f6;
+    box-sizing: border-box;
+    height: 770px;
+    text-align: center;
+}
+
+.circle {
+    align-items: center;
+    background-color: white;
+    border: 11px solid #384001;
+    border-radius: 50%;
+    box-sizing: border-box;
+    display: flex;
+    height: 233px;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 233px;
+}
+
+.circle img {
+    height: auto;
+    object-fit: contain;
+    width: 100px;
+}
+
+.title-memberships {
+    color: black;
+    font-size: 1.8rem;
+    margin: 0px;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+.card-membership {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 15%;
+    padding-right: 10%;
+    padding-top: 70px;
+}
+
+.membership {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex: 1 1 300px;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 450px;
+}
+
+.membership ul {
+    color: black;
+    font-size: 14px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.membership h2 {
+    color: black;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+}
+
+.membership li {
+    margin-bottom: 5px;
+}
+
+.conditions {
+    align-items: center;
+    background-color: #A3A656;
+    border-radius: 35px;
+    border-style: none;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    height: 48px;
+    justify-content: center;
+    margin-bottom: 20px;
+    min-width: 240px;
+    text-transform: uppercase;
+}
+
+.conditions:hover {
+    background-color: #384001;
+}
+
+.foot {
+    background-color: #384001;
+    box-sizing: border-box;
+    color: #a3a656;
+    display: flex;
+    font-size: 0.9rem;
+    height: 97px;
+    justify-content: space-between;
+    padding-left: 70px;
+    text-align: center;
+}
+
+.foot-left {
+    align-items: center;
+    display: flex;
+    gap: 40px;
+}
+
+.foot-right {
+    align-items: center;
+    display: flex;
+    gap: 30px;
+    padding-right: 30px;
+}
+
+.foot-left a {
+    color: #a3a656;
+    text-decoration: none;
+}
+
+.foot-left a:hover {
+    color: #ffff00;
+}
+
+.foot-right img {
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+}
+
